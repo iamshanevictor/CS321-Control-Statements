@@ -10,7 +10,6 @@ light_levels = {
 light_level = 0
 
 while True:
-    # Print the current light level
     print(f"The light is currently {light_levels[light_level]}")
 
     light_level = int(input("Enter a light level (0-4), or 0 to exit: "))
